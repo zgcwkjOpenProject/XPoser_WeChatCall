@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">微信快捷通话</string>
+    <string name="xposed_description">微信快捷通话 - 一键直达好友视频/语音通话</string>
+
+    <string name="action_add">添加好友</string>
+    <string name="action_import">导入好友</string>
+    <string name="action_shortcut">创建图标</string>
+    <string name="action_edit">编辑</string>
+    <string name="action_delete">删除</string>
+    <string name="action_save">保存</string>
+    <string name="action_cancel">取消</string>
+
+    <string name="tab_home">首页</string>
+    <string name="tab_log">日志</string>
+    <string name="log_path_hint">/data/data/包名/files/logs/年月日.log</string>
+    <string name="action_clear_log">清空</string>
+    <string name="action_refresh">刷新</string>
+    <string name="log_empty">暂无日志</string>
+    <string name="log_switch">记录日志</string>
+    <string name="log_cleared">日志已清空</string>
+
+    <string name="empty_tip">还没有好友，点击右上角「导入好友」\n从微信读取后，点击好友即可创建桌面图标</string>
+    <string name="search_hint">搜索好友</string>
+    <string name="search_empty">没有找到匹配的好友</string>
+
+    <string name="dialog_add_title">添加好友</string>
+    <string name="dialog_edit_title">编辑好友</string>
+    <string name="friend_nickname">好友备注</string>
+    <string name="friend_nickname_hint">例: 张三</string>
+    <string name="friend_icon">图标</string>
+    <string name="action_pick_icon">选择图片</string>
+    <string name="action_reset_icon">恢复默认</string>
+    <string name="friend_wxid">好友 wxid</string>
+    <string name="friend_wxid_hint">例: wxid_abcdefg12345</string>
+    <string name="friend_wxid_tip">wxid 是微信内部账号，可在聊天信息或数据库工具中获取</string>
+    <string name="call_type">通话类型</string>
+    <string name="call_type_video">视频通话</string>
+    <string name="call_type_voice">语音通话</string>
+
+    <string name="widget_1x1">微信通话 1×1</string>
+    <string name="widget_2x2">微信通话 2×2</string>
+    <string name="widget_4x4">微信通话 4×4</string>
+    <string name="widget_pick_friend">选择好友</string>
+    <string name="widget_no_friends">暂无好友，请先在应用内导入好友</string>
+
+    <string name="toast_nickname_required">请填写好友备注</string>
+    <string name="toast_wxid_required">请填写好友 wxid</string>
+    <string name="toast_pick_icon_failed">选择图片失败</string>
+    <string name="toast_deleted">已删除</string>
+    <string name="toast_shortcut_requested">已请求创建桌面图标，请在桌面确认</string>
+    <string name="toast_shortcut_unsupported">当前桌面不支持固定图标，已尝试旧版方式</string>
+    <string name="toast_wechat_missing">未检测到微信，请先安装微信</string>
+    <string name="toast_shortcut_started">正在发起%1$s…</string>
+    <string name="toast_shortcut_failed">拉起微信失败，请检查微信是否安装及模块是否已启用</string>
+    <string name="toast_import_none">未读取到微信好友，请先在微信中打开一次「通讯录」，并确认模块已对微信启用</string>
+    <string name="toast_import_waiting">正在读取微信好友，请稍候…</string>
+    <string name="toast_import_done">已同步 %1$d 位好友（已替换原列表）</string>
+
+    <string name="shortcut_type_video">视频通话</string>
+    <string name="shortcut_type_voice">语音通话</string>
+
+    <string name="author_url">http://www.zgcwkj.cn</string>
+    <string name="footer_text">Powered by <a href="http://www.zgcwkj.cn">zgcwkj</a></string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#07C160</color>
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="text_primary">#E6E6E6</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="text_disabled">#777777</color>
+    <color name="text_hint">#888888</color>
+    <color name="divider">#2A2A2A</color>
+    <color name="danger">#E64340</color>
+</resources>
